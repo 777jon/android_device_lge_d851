@@ -24,9 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += device/lge/d851/fstab.g3:recovery/root/fstab.g3
-PRODUCT_COPY_FILES += device/lge/d851/recovery.fstab:recovery/root/etc/twrp.fstab
 
-# Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d851
 PRODUCT_NAME := omni_d851
 PRODUCT_BRAND := LG
